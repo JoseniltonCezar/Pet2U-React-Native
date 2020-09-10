@@ -1,11 +1,10 @@
 import React from 'react'
-import {SafeAreaView ,View, Text, StyleSheet, StatusBar, Image, TextInput, TouchableOpacity} from 'react-native'
+import {SafeAreaView ,View, Text, StyleSheet, Image, TextInput, TouchableOpacity} from 'react-native'
+
 
 const Main = () =>{
     return (
         <SafeAreaView style={{flex: 1}}>
-            <StatusBar barStyle="dark-content"></StatusBar>
-
             <View style={style.container}>               
                 <Image
                     style={style.image}
