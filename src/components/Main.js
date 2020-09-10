@@ -59,7 +59,7 @@ const style = StyleSheet.create({
     },
     headerText: {
         fontSize: 47,
-        color: "#708090",
+        color: "#a9a9a9",
         marginTop: 40,
         alignSelf: "center",
         fontFamily: "sans-serif-thin",
@@ -72,14 +72,14 @@ const style = StyleSheet.create({
     },
     emailInput: {
         borderWidth: 1,
-        borderColor: '#708090',
+        borderColor: '#a9a9a9',
         padding: 5,
         height: 60,
         marginBottom: 20
     },
     passwordInput:{
         borderWidth: 1,
-        borderColor: '#708090',
+        borderColor: '#a9a9a9',
         padding: 5,
         height: 60
     },
@@ -111,7 +111,7 @@ const style = StyleSheet.create({
         fontSize: 15,
         fontWeight: "bold",
         fontStyle: "italic",
-        color: "#708090",
+        color: "#a9a9a9",
     },
     createAccButton:{
         shadowColor: 'rgba(0,0,0, .4)', // IOS
