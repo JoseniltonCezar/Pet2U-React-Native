@@ -1,12 +1,13 @@
 import React from 'react'
 import {SafeAreaView, View, Text, StyleSheet, TextInput, TouchableOpacity, KeyboardAvoidingView} from 'react-native'
 
+
+import NormalHeader from './Header/NormalHeader'
+
 const Cadastro = props =>{
     return (
         <SafeAreaView style={{flex: 1}}>
-            <View style={style.container}>               
-                <Text style={style.containerText}>Pet2U</Text>
-            </View>
+            <NormalHeader/>
             <View>
                 <KeyboardAvoidingView behavior="position">
                 <Text style={style.headerText}>Cadastro</Text>
@@ -53,17 +54,6 @@ const Cadastro = props =>{
 
 
 const style = StyleSheet.create({
-    container: {
-        backgroundColor: "#1e90ff",
-        justifyContent: "center",
-        paddingLeft: 10,
-        height: 35
-    },
-    containerText:{
-        color: "#ffff",
-        fontSize: 25,
-        fontWeight: "bold"
-    },
     headerText: {
         fontSize: 47,
         color: "#a9a9a9",

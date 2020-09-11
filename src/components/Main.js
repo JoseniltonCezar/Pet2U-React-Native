@@ -1,18 +1,12 @@
 import React from 'react'
-import {SafeAreaView ,View, Text, StyleSheet, Image, TextInput, TouchableOpacity} from 'react-native'
+import {SafeAreaView ,View, Text, StyleSheet, TextInput, TouchableOpacity} from 'react-native'
 
+import ImageHeader from './Header/ImageHeader'
 
 const Main = () =>{
     return (
         <SafeAreaView style={{flex: 1}}>
-            <View style={style.container}>               
-                <Image
-                    style={style.image}
-                    source={require('./images/pet2u_logo.png')}
-
-                />
-            </View>     
-
+            <ImageHeader/>  
             <View style={style.loginContainer}>
                 <Text style={style.headerText}>Login de Usuário</Text>
                 <View style={style.loginSecondContainer}>
@@ -46,16 +40,6 @@ const Main = () =>{
 }
 
 const style = StyleSheet.create({
-    container: {
-        flex:1,
-        backgroundColor: "#1e90ff",
-        alignItems: "center",
-        height: 160,
-        justifyContent: "center",
-    },
-    image:{
-        resizeMode: "contain"
-    },
     headerText: {
         fontSize: 47,
         color: "#a9a9a9",
