@@ -29,7 +29,7 @@ const Main = () =>{
                         onChangeText={text =>{}}                        
                     />
 
-                    <TouchableOpacity style={style.signInButton} onPress={button =>{}}>
+                    <TouchableOpacity style={style.CreateAccButton} onPress={button =>{}}>
                         <Text style={style.signInButtonText}>Entrar</Text>
                     </TouchableOpacity>
 
