@@ -104,7 +104,7 @@ const style = StyleSheet.create({
     },
     petImages:{
         width: "100%",
-        height: 150,
+        height: 200,
         resizeMode: "stretch",
         borderRadius: 3
         
