@@ -1,5 +1,5 @@
 import React from 'react'
-import { SafeAreaView, View, Text, StyleSheet, FlatList, TextInput, TouchableOpacity, Image, ScrollView} from 'react-native'
+import { SafeAreaView, View, Text, StyleSheet, FlatList, TextInput, TouchableOpacity, Image} from 'react-native'
 import NormalHeader from './Header/NormalHeader'
 
 const ListarPets = props =>{
@@ -8,7 +8,7 @@ const ListarPets = props =>{
             feed:[
                 {id: '1', name: 'PetShop do Zezinho', waitTime: '25 - 35 min', nota: 10, image: require('./images/fachadaPet1.jpg')},
                 {id: '2', name: 'CaoQmia', waitTime: '20 - 40 min', nota: 9.9, image: require('./images/fachadaPet2.png')},
-                {id: '3', name: 'EuroBike Petshop', waitTime: '10 - 40 min', nota: 9.5, image: require('./images/fachadaPet3.png')},
+                {id: '3', name: 'EuroBike Petshop', waitTime: '10 - 40 min', nota: 9.5, image: require('./images/fachadaPet1.jpg')},
                 {id: '4', name: 'USABike Petshop', waitTime: '10 - 40 min', nota: 9.5, image: require('./images/fachadaPet2.png')},
                 {id: '5', name: 'XesqueBike Petshop', waitTime: '10 - 40 min', nota: 9.5, image: require('./images/fachadaPet1.jpg')}
             ]
@@ -117,14 +117,3 @@ const style = StyleSheet.create({
     
 })
 export default ListarPets
-
-
-// class Petshop extends Component{
-//     render(){
-//         return(
-//             <View>
-//                 <Text>{this.props.data.nome}</Text>
-//             </View>
-//         );
-//     }
-// }
