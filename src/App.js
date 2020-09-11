@@ -14,7 +14,7 @@ const App = (props) => {
             hidden={false}
             backgroundColor="#1e90ff"
         />
-        <PerfilUsuario/>
+        <ListarPets/>
         {/* <ListarPets/> */}
         </>
     );
