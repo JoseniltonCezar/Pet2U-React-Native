@@ -28,16 +28,16 @@ const ListarPets = props =>{
                 <Text style={style.textfilter}>Classfificar por:</Text>
 
                 <TouchableOpacity style={style.buttonsSearch} onPress={button =>{}}>
-                    <Text >Alfabético</Text>
+                    <Text style={style.buttonsSearchText}>Alfabético</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity style={style.buttonsSearch} onPress={button =>{}}>
-                    <Text >Novos</Text>
+                    <Text style={style.buttonsSearchText}>Novos</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity style={style.buttonsSearch} onPress={button =>{}}>
 
-                    <Text >Pontuação</Text>
+                    <Text style={style.buttonsSearchText}>Pontuação</Text>
                 </TouchableOpacity>
 
             </View>
@@ -98,6 +98,9 @@ const style = StyleSheet.create({
         marginTop: 10,
         borderRadius: 10,
         marginLeft: 10,
+    },
+    buttonsSearchText:{
+        color: '#ffff'
     },
     listContainer:{
         flex: 1,
